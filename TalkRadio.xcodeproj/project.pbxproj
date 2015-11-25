@@ -1,0 +1,1039 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C2A38C516EFD95000139169 /* play_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2A38C216EFD95000139169 /* play_bg.png */; };
+		3C2A38C616EFD95000139169 /* showCellBackground_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2A38C316EFD95000139169 /* showCellBackground_normal.png */; };
+		3C2A38C716EFD95000139169 /* showCellBackground_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2A38C416EFD95000139169 /* showCellBackground_selected.png */; };
+		3C2A38CA16EFD9B800139169 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C2A38C916EFD9B800139169 /* bg.png */; };
+		3C5C125316E9EB4A00C63457 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5C125216E9EB4A00C63457 /* Cocoa.framework */; };
+		3C5C125D16E9EB4A00C63457 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C5C125B16E9EB4A00C63457 /* InfoPlist.strings */; };
+		3C5C125F16E9EB4A00C63457 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5C125E16E9EB4A00C63457 /* main.m */; };
+		3C5C126316E9EB4A00C63457 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3C5C126116E9EB4A00C63457 /* Credits.rtf */; };
+		3C5C126616E9EB4A00C63457 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5C126516E9EB4A00C63457 /* AppDelegate.m */; };
+		3C5C126916E9EB4A00C63457 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C5C126716E9EB4A00C63457 /* MainMenu.xib */; };
+		3C5C147E16EA237400C63457 /* TalkRadioData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5C147D16EA237400C63457 /* TalkRadioData.m */; };
+		3CCD7D2416EA2FB300B9124A /* aboutBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CA916EA2FB300B9124A /* aboutBackground.png */; };
+		3CCD7D2616EA2FB300B9124A /* AlexJones.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CAB16EA2FB300B9124A /* AlexJones.png */; };
+		3CCD7D2816EA2FB300B9124A /* BabyNames.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CAD16EA2FB300B9124A /* BabyNames.png */; };
+		3CCD7D2A16EA2FB300B9124A /* blueBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CAF16EA2FB300B9124A /* blueBackground.png */; };
+		3CCD7D2B16EA2FB300B9124A /* bluefadebackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CB016EA2FB300B9124A /* bluefadebackground.png */; };
+		3CCD7D2C16EA2FB300B9124A /* CompanyLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CB116EA2FB300B9124A /* CompanyLogo.png */; };
+		3CCD7D2F16EA2FB300B9124A /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CB416EA2FB300B9124A /* Default-Landscape.png */; };
+		3CCD7D3116EA2FB300B9124A /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CB616EA2FB300B9124A /* Default-Portrait.png */; };
+		3CCD7D3316EA2FB300B9124A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CB816EA2FB300B9124A /* Default.png */; };
+		3CCD7D3516EA2FB300B9124A /* DennisMiller.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CBA16EA2FB300B9124A /* DennisMiller.png */; };
+		3CCD7D3716EA2FB300B9124A /* DennisPrager.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CBC16EA2FB300B9124A /* DennisPrager.png */; };
+		3CCD7D3916EA2FB300B9124A /* DrudgeGetVotesIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CBE16EA2FB300B9124A /* DrudgeGetVotesIcon.png */; };
+		3CCD7D3B16EA2FB300B9124A /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CC016EA2FB300B9124A /* email.png */; };
+		3CCD7D3C16EA2FB300B9124A /* flagBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CC116EA2FB300B9124A /* flagBackground.png */; };
+		3CCD7D3E16EA2FB300B9124A /* Generic.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CC316EA2FB300B9124A /* Generic.png */; };
+		3CCD7D4016EA2FB300B9124A /* Gift.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CC516EA2FB300B9124A /* Gift.png */; };
+		3CCD7D4216EA2FB300B9124A /* GlennBeck.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CC716EA2FB300B9124A /* GlennBeck.png */; };
+		3CCD7D4416EA2FB300B9124A /* Globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CC916EA2FB300B9124A /* Globe.png */; };
+		3CCD7D4616EA2FB300B9124A /* iPadIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CCB16EA2FB300B9124A /* iPadIcon.png */; };
+		3CCD7D4816EA2FB300B9124A /* iPhoneIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CCD16EA2FB300B9124A /* iPhoneIcon.png */; };
+		3CCD7D4A16EA2FB300B9124A /* JasonLewis.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CCF16EA2FB300B9124A /* JasonLewis.png */; };
+		3CCD7D4C16EA2FB300B9124A /* JaySekulow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CD116EA2FB300B9124A /* JaySekulow.png */; };
+		3CCD7D4E16EA2FB300B9124A /* JDHayworth.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CD316EA2FB300B9124A /* JDHayworth.png */; };
+		3CCD7D5016EA2FB300B9124A /* kcaa.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CD516EA2FB300B9124A /* kcaa.png */; };
+		3CCD7D5216EA2FB300B9124A /* kern.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CD716EA2FB300B9124A /* kern.png */; };
+		3CCD7D5416EA2FB300B9124A /* ksfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CD916EA2FB300B9124A /* ksfo.png */; };
+		3CCD7D5616EA2FB300B9124A /* ktth.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CDB16EA2FB300B9124A /* ktth.png */; };
+		3CCD7D5816EA2FB300B9124A /* LauraIngraham.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CDD16EA2FB300B9124A /* LauraIngraham.png */; };
+		3CCD7D5A16EA2FB300B9124A /* loadingball.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CDF16EA2FB300B9124A /* loadingball.png */; };
+		3CCD7D5C16EA2FB300B9124A /* loadingbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CE116EA2FB300B9124A /* loadingbutton.png */; };
+		3CCD7D5E16EA2FB300B9124A /* marketBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CE316EA2FB300B9124A /* marketBackground.png */; };
+		3CCD7D6016EA2FB300B9124A /* MarkLevin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CE516EA2FB300B9124A /* MarkLevin.png */; };
+		3CCD7D6216EA2FB300B9124A /* micBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CE716EA2FB300B9124A /* micBackground.png */; };
+		3CCD7D6416EA2FB300B9124A /* micBackgroundBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CE916EA2FB300B9124A /* micBackgroundBig.png */; };
+		3CCD7D6616EA2FB300B9124A /* MichaelMedved.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CEB16EA2FB300B9124A /* MichaelMedved.png */; };
+		3CCD7D6816EA2FB300B9124A /* MichaelSavage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CED16EA2FB300B9124A /* MichaelSavage.png */; };
+		3CCD7D6A16EA2FB300B9124A /* NealBoortz.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CEF16EA2FB300B9124A /* NealBoortz.png */; };
+		3CCD7D6C16EA2FB300B9124A /* nowPlaying.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CF116EA2FB300B9124A /* nowPlaying.png */; };
+		3CCD7D6E16EA2FB300B9124A /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CF316EA2FB300B9124A /* playButton.png */; };
+		3CCD7D7016EA2FB300B9124A /* playerBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CF516EA2FB300B9124A /* playerBackground.png */; };
+		3CCD7D7216EA2FB300B9124A /* purchaseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CF716EA2FB300B9124A /* purchaseButton.png */; };
+		3CCD7D7416EA2FB300B9124A /* purchaseButtoniPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CF916EA2FB300B9124A /* purchaseButtoniPad.png */; };
+		3CCD7D7516EA2FB300B9124A /* redstate.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CFA16EA2FB300B9124A /* redstate.png */; };
+		3CCD7D7716EA2FB300B9124A /* Republican.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CFC16EA2FB300B9124A /* Republican.png */; };
+		3CCD7D7916EA2FB300B9124A /* RogerHedgecock.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7CFE16EA2FB300B9124A /* RogerHedgecock.png */; };
+		3CCD7D7B16EA2FB300B9124A /* Rush.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7D0016EA2FB300B9124A /* Rush.png */; };
+		3CCD7D7D16EA2FB300B9124A /* schatzisoft.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7D0216EA2FB300B9124A /* schatzisoft.png */; };
+		3CCD7D7F16EA2FB300B9124A /* SeanHannity.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7D0416EA2FB300B9124A /* SeanHannity.png */; };
+		3CCD7D8116EA2FB300B9124A /* showCellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7D0616EA2FB300B9124A /* showCellBackground.png */; };
+		3CCD7D8316EA2FB300B9124A /* showCellBackgroundWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7D0816EA2FB300B9124A /* showCellBackgroundWhite.png */; };
+		3CCD7D8516EA2FB300B9124A /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7D0A16EA2FB300B9124A /* star.png */; };
+		3CCD7D8716EA2FB300B9124A /* starsStripesBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7D0C16EA2FB300B9124A /* starsStripesBackground.png */; };
+		3CCD7D8816EA2FB300B9124A /* stopButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7D0D16EA2FB300B9124A /* stopButton.png */; };
+		3CCD7D8A16EA2FB300B9124A /* tabbar_broadcast.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7D0F16EA2FB300B9124A /* tabbar_broadcast.png */; };
+		3CCD7D8C16EA2FB300B9124A /* tabbar_downloads.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7D1116EA2FB300B9124A /* tabbar_downloads.png */; };
+		3CCD7D8E16EA2FB300B9124A /* tabbar_radio.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7D1316EA2FB300B9124A /* tabbar_radio.png */; };
+		3CCD7D9016EA2FB300B9124A /* tabbar_shows.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7D1516EA2FB300B9124A /* tabbar_shows.png */; };
+		3CCD7D9216EA2FB300B9124A /* tabbar_stations.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7D1716EA2FB300B9124A /* tabbar_stations.png */; };
+		3CCD7D9416EA2FB300B9124A /* TalkRadio.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7D1916EA2FB300B9124A /* TalkRadio.png */; };
+		3CCD7D9616EA2FB300B9124A /* TopPanel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7D1B16EA2FB300B9124A /* TopPanel.png */; };
+		3CCD7D9816EA2FB300B9124A /* WilliamBennett.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7D1D16EA2FB300B9124A /* WilliamBennett.png */; };
+		3CCD7D9A16EA2FB300B9124A /* wsb.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7D1F16EA2FB300B9124A /* wsb.png */; };
+		3CCD7D9C16EA2FB300B9124A /* shows.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7D2216EA2FB300B9124A /* shows.plist */; };
+		3CCD7D9D16EA2FB300B9124A /* stations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD7D2316EA2FB300B9124A /* stations.plist */; };
+		3CCD849E16EC42B60020CCEA /* TalkRadioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD849C16EC42B60020CCEA /* TalkRadioViewController.xib */; };
+		3CCD84A116EC46D00020CCEA /* TalkRadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCD84A016EC46D00020CCEA /* TalkRadioViewController.m */; };
+		3CCD84A416EC49C40020CCEA /* TalkRadioCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCD84A316EC49C40020CCEA /* TalkRadioCellView.m */; };
+		3CCD84A716ECA3430020CCEA /* TalkRadioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCD84A616ECA3420020CCEA /* TalkRadioView.m */; };
+		3CDBCA5E16EEC48700C71941 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDBCA3C16EEC48700C71941 /* libavcodec.a */; };
+		3CDBCA5F16EEC48700C71941 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDBCA3D16EEC48700C71941 /* libavformat.a */; };
+		3CDBCA6016EEC48700C71941 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDBCA3E16EEC48700C71941 /* libavutil.a */; };
+		3CDBCA6116EEC48700C71941 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDBCA4116EEC48700C71941 /* Reachability.m */; };
+		3CDBCA6716EEC48700C71941 /* AudioPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDBCA4A16EEC48700C71941 /* AudioPacket.m */; };
+		3CDBCA6816EEC48700C71941 /* AudioQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDBCA4C16EEC48700C71941 /* AudioQueue.m */; };
+		3CDBCA6916EEC48700C71941 /* HTTPRadio.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDBCA4E16EEC48700C71941 /* HTTPRadio.m */; };
+		3CDBCA6A16EEC48700C71941 /* M3UParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDBCA5016EEC48700C71941 /* M3UParser.m */; };
+		3CDBCA6B16EEC48700C71941 /* MMSRadio.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDBCA5216EEC48700C71941 /* MMSRadio.m */; };
+		3CDBCA6C16EEC48700C71941 /* NSHTTPURLResponse+RadioKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDBCA5416EEC48700C71941 /* NSHTTPURLResponse+RadioKit.m */; };
+		3CDBCA6D16EEC48700C71941 /* PLSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDBCA5716EEC48700C71941 /* PLSParser.m */; };
+		3CDBCA6E16EEC48700C71941 /* Radio.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDBCA5916EEC48700C71941 /* Radio.m */; };
+		3CDBCA6F16EEC48700C71941 /* XMLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDBCA5B16EEC48700C71941 /* XMLUtilities.m */; };
+		3CDBCA7016EEC48700C71941 /* XSPFParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDBCA5D16EEC48700C71941 /* XSPFParser.m */; };
+		3CDBCA7216EEC74C00C71941 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDBCA7116EEC74C00C71941 /* CoreFoundation.framework */; };
+		3CDBCA7416EEC91B00C71941 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDBCA7316EEC91B00C71941 /* libz.dylib */; };
+		3CDBCA7616EEC92500C71941 /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDBCA7516EEC92500C71941 /* libbz2.dylib */; };
+		3CDBCA7816EEC92E00C71941 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDBCA7716EEC92E00C71941 /* libxml2.dylib */; };
+		3CDBCA7A16EEC93800C71941 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDBCA7916EEC93800C71941 /* CoreGraphics.framework */; };
+		3CDBCA7C16EEC95500C71941 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDBCA7B16EEC95400C71941 /* SystemConfiguration.framework */; };
+		3CDBCA7E16EEC95C00C71941 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDBCA7D16EEC95C00C71941 /* CoreVideo.framework */; };
+		3CDBCA8016EEC96E00C71941 /* VideoDecodeAcceleration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDBCA7F16EEC96E00C71941 /* VideoDecodeAcceleration.framework */; };
+		3CDBCA8216EEC97800C71941 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDBCA8116EEC97800C71941 /* CoreMedia.framework */; };
+		3CDBCA8416EEC98000C71941 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDBCA8316EEC98000C71941 /* ApplicationServices.framework */; };
+		3CDBCA8616EECA9F00C71941 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDBCA8516EECA9F00C71941 /* AudioToolbox.framework */; };
+		3CE2A06716F08914005A9D9E /* TalkRadioIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3CE2A06616F08914005A9D9E /* TalkRadioIcon.icns */; };
+		3CEC63D616F07EDA00E62F66 /* TalkRadio_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CEC63D516F07EDA00E62F66 /* TalkRadio_Icon.png */; };
+		B226596916F23B64003A1CBD /* GeorgeNoorey.png in Resources */ = {isa = PBXBuildFile; fileRef = B226596816F23B64003A1CBD /* GeorgeNoorey.png */; };
+		B226596C16F2482C003A1CBD /* mac.iconset in Resources */ = {isa = PBXBuildFile; fileRef = B226596B16F2482C003A1CBD /* mac.iconset */; };
+		B2B2B04C16F1401800DDE716 /* HermanCain.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B2B04B16F1401200DDE716 /* HermanCain.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C2A38C216EFD95000139169 /* play_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_bg.png; sourceTree = "<group>"; };
+		3C2A38C316EFD95000139169 /* showCellBackground_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = showCellBackground_normal.png; sourceTree = "<group>"; };
+		3C2A38C416EFD95000139169 /* showCellBackground_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = showCellBackground_selected.png; sourceTree = "<group>"; };
+		3C2A38C916EFD9B800139169 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		3C5C124F16E9EB4A00C63457 /* Conservative Talk Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conservative Talk Radio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5C125216E9EB4A00C63457 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3C5C125516E9EB4A00C63457 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3C5C125616E9EB4A00C63457 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3C5C125716E9EB4A00C63457 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C5C125A16E9EB4A00C63457 /* TalkRadio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TalkRadio-Info.plist"; sourceTree = "<group>"; };
+		3C5C125C16E9EB4A00C63457 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C5C125E16E9EB4A00C63457 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C5C126016E9EB4A00C63457 /* TalkRadio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TalkRadio-Prefix.pch"; sourceTree = "<group>"; };
+		3C5C126216E9EB4A00C63457 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3C5C126416E9EB4A00C63457 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C5C126516E9EB4A00C63457 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C5C126816E9EB4A00C63457 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3C5C127016E9EB4A00C63457 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3C5C127716E9EB4B00C63457 /* TalkRadioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TalkRadioTests-Info.plist"; sourceTree = "<group>"; };
+		3C5C127916E9EB4B00C63457 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C5C127B16E9EB4B00C63457 /* TalkRadioTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TalkRadioTests.h; sourceTree = "<group>"; };
+		3C5C127C16E9EB4B00C63457 /* TalkRadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalkRadioTests.m; sourceTree = "<group>"; };
+		3C5C147C16EA237400C63457 /* TalkRadioData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkRadioData.h; sourceTree = "<group>"; };
+		3C5C147D16EA237400C63457 /* TalkRadioData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkRadioData.m; sourceTree = "<group>"; };
+		3CCD7CA916EA2FB300B9124A /* aboutBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboutBackground.png; sourceTree = "<group>"; };
+		3CCD7CAB16EA2FB300B9124A /* AlexJones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AlexJones.png; sourceTree = "<group>"; };
+		3CCD7CAD16EA2FB300B9124A /* BabyNames.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BabyNames.png; sourceTree = "<group>"; };
+		3CCD7CAF16EA2FB300B9124A /* blueBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueBackground.png; sourceTree = "<group>"; };
+		3CCD7CB016EA2FB300B9124A /* bluefadebackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluefadebackground.png; sourceTree = "<group>"; };
+		3CCD7CB116EA2FB300B9124A /* CompanyLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CompanyLogo.png; sourceTree = "<group>"; };
+		3CCD7CB416EA2FB300B9124A /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		3CCD7CB616EA2FB300B9124A /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		3CCD7CB816EA2FB300B9124A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3CCD7CBA16EA2FB300B9124A /* DennisMiller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DennisMiller.png; sourceTree = "<group>"; };
+		3CCD7CBC16EA2FB300B9124A /* DennisPrager.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DennisPrager.png; sourceTree = "<group>"; };
+		3CCD7CBE16EA2FB300B9124A /* DrudgeGetVotesIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DrudgeGetVotesIcon.png; sourceTree = "<group>"; };
+		3CCD7CC016EA2FB300B9124A /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		3CCD7CC116EA2FB300B9124A /* flagBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flagBackground.png; sourceTree = "<group>"; };
+		3CCD7CC316EA2FB300B9124A /* Generic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Generic.png; sourceTree = "<group>"; };
+		3CCD7CC516EA2FB300B9124A /* Gift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gift.png; sourceTree = "<group>"; };
+		3CCD7CC716EA2FB300B9124A /* GlennBeck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GlennBeck.png; sourceTree = "<group>"; };
+		3CCD7CC916EA2FB300B9124A /* Globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Globe.png; sourceTree = "<group>"; };
+		3CCD7CCB16EA2FB300B9124A /* iPadIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadIcon.png; sourceTree = "<group>"; };
+		3CCD7CCD16EA2FB300B9124A /* iPhoneIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneIcon.png; sourceTree = "<group>"; };
+		3CCD7CCF16EA2FB300B9124A /* JasonLewis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JasonLewis.png; sourceTree = "<group>"; };
+		3CCD7CD116EA2FB300B9124A /* JaySekulow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JaySekulow.png; sourceTree = "<group>"; };
+		3CCD7CD316EA2FB300B9124A /* JDHayworth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JDHayworth.png; sourceTree = "<group>"; };
+		3CCD7CD516EA2FB300B9124A /* kcaa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kcaa.png; sourceTree = "<group>"; };
+		3CCD7CD716EA2FB300B9124A /* kern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kern.png; sourceTree = "<group>"; };
+		3CCD7CD916EA2FB300B9124A /* ksfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ksfo.png; sourceTree = "<group>"; };
+		3CCD7CDB16EA2FB300B9124A /* ktth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ktth.png; sourceTree = "<group>"; };
+		3CCD7CDD16EA2FB300B9124A /* LauraIngraham.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LauraIngraham.png; sourceTree = "<group>"; };
+		3CCD7CDF16EA2FB300B9124A /* loadingball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingball.png; sourceTree = "<group>"; };
+		3CCD7CE116EA2FB300B9124A /* loadingbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingbutton.png; sourceTree = "<group>"; };
+		3CCD7CE316EA2FB300B9124A /* marketBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marketBackground.png; sourceTree = "<group>"; };
+		3CCD7CE516EA2FB300B9124A /* MarkLevin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MarkLevin.png; sourceTree = "<group>"; };
+		3CCD7CE716EA2FB300B9124A /* micBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = micBackground.png; sourceTree = "<group>"; };
+		3CCD7CE916EA2FB300B9124A /* micBackgroundBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = micBackgroundBig.png; sourceTree = "<group>"; };
+		3CCD7CEB16EA2FB300B9124A /* MichaelMedved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MichaelMedved.png; sourceTree = "<group>"; };
+		3CCD7CED16EA2FB300B9124A /* MichaelSavage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MichaelSavage.png; sourceTree = "<group>"; };
+		3CCD7CEF16EA2FB300B9124A /* NealBoortz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NealBoortz.png; sourceTree = "<group>"; };
+		3CCD7CF116EA2FB300B9124A /* nowPlaying.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nowPlaying.png; sourceTree = "<group>"; };
+		3CCD7CF316EA2FB300B9124A /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
+		3CCD7CF516EA2FB300B9124A /* playerBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playerBackground.png; sourceTree = "<group>"; };
+		3CCD7CF716EA2FB300B9124A /* purchaseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purchaseButton.png; sourceTree = "<group>"; };
+		3CCD7CF916EA2FB300B9124A /* purchaseButtoniPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purchaseButtoniPad.png; sourceTree = "<group>"; };
+		3CCD7CFA16EA2FB300B9124A /* redstate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redstate.png; sourceTree = "<group>"; };
+		3CCD7CFC16EA2FB300B9124A /* Republican.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Republican.png; sourceTree = "<group>"; };
+		3CCD7CFE16EA2FB300B9124A /* RogerHedgecock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RogerHedgecock.png; sourceTree = "<group>"; };
+		3CCD7D0016EA2FB300B9124A /* Rush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rush.png; sourceTree = "<group>"; };
+		3CCD7D0216EA2FB300B9124A /* schatzisoft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schatzisoft.png; sourceTree = "<group>"; };
+		3CCD7D0416EA2FB300B9124A /* SeanHannity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SeanHannity.png; sourceTree = "<group>"; };
+		3CCD7D0616EA2FB300B9124A /* showCellBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = showCellBackground.png; sourceTree = "<group>"; };
+		3CCD7D0816EA2FB300B9124A /* showCellBackgroundWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = showCellBackgroundWhite.png; sourceTree = "<group>"; };
+		3CCD7D0A16EA2FB300B9124A /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		3CCD7D0C16EA2FB300B9124A /* starsStripesBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starsStripesBackground.png; sourceTree = "<group>"; };
+		3CCD7D0D16EA2FB300B9124A /* stopButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopButton.png; sourceTree = "<group>"; };
+		3CCD7D0F16EA2FB300B9124A /* tabbar_broadcast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_broadcast.png; sourceTree = "<group>"; };
+		3CCD7D1116EA2FB300B9124A /* tabbar_downloads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_downloads.png; sourceTree = "<group>"; };
+		3CCD7D1316EA2FB300B9124A /* tabbar_radio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_radio.png; sourceTree = "<group>"; };
+		3CCD7D1516EA2FB300B9124A /* tabbar_shows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_shows.png; sourceTree = "<group>"; };
+		3CCD7D1716EA2FB300B9124A /* tabbar_stations.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_stations.png; sourceTree = "<group>"; };
+		3CCD7D1916EA2FB300B9124A /* TalkRadio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TalkRadio.png; sourceTree = "<group>"; };
+		3CCD7D1B16EA2FB300B9124A /* TopPanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TopPanel.png; sourceTree = "<group>"; };
+		3CCD7D1D16EA2FB300B9124A /* WilliamBennett.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WilliamBennett.png; sourceTree = "<group>"; };
+		3CCD7D1F16EA2FB300B9124A /* wsb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wsb.png; sourceTree = "<group>"; };
+		3CCD7D2216EA2FB300B9124A /* shows.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = shows.plist; sourceTree = "<group>"; };
+		3CCD7D2316EA2FB300B9124A /* stations.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = stations.plist; sourceTree = "<group>"; };
+		3CCD849C16EC42B60020CCEA /* TalkRadioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkRadioViewController.xib; sourceTree = "<group>"; };
+		3CCD849F16EC46D00020CCEA /* TalkRadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkRadioViewController.h; sourceTree = "<group>"; };
+		3CCD84A016EC46D00020CCEA /* TalkRadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkRadioViewController.m; sourceTree = "<group>"; };
+		3CCD84A216EC49C40020CCEA /* TalkRadioCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkRadioCellView.h; sourceTree = "<group>"; };
+		3CCD84A316EC49C40020CCEA /* TalkRadioCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkRadioCellView.m; sourceTree = "<group>"; };
+		3CCD84A516ECA3420020CCEA /* TalkRadioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkRadioView.h; sourceTree = "<group>"; };
+		3CCD84A616ECA3420020CCEA /* TalkRadioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkRadioView.m; sourceTree = "<group>"; };
+		3CDBCA0516EEC48700C71941 /* avcodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avcodec.h; sourceTree = "<group>"; };
+		3CDBCA0616EEC48700C71941 /* avfft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avfft.h; sourceTree = "<group>"; };
+		3CDBCA0716EEC48700C71941 /* dxva2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dxva2.h; sourceTree = "<group>"; };
+		3CDBCA0816EEC48700C71941 /* old_codec_ids.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = old_codec_ids.h; sourceTree = "<group>"; };
+		3CDBCA0916EEC48700C71941 /* opt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opt.h; sourceTree = "<group>"; };
+		3CDBCA0A16EEC48700C71941 /* vaapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vaapi.h; sourceTree = "<group>"; };
+		3CDBCA0B16EEC48700C71941 /* vdpau.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vdpau.h; sourceTree = "<group>"; };
+		3CDBCA0C16EEC48700C71941 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		3CDBCA0D16EEC48700C71941 /* xvmc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xvmc.h; sourceTree = "<group>"; };
+		3CDBCA0F16EEC48700C71941 /* avformat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avformat.h; sourceTree = "<group>"; };
+		3CDBCA1016EEC48700C71941 /* avio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avio.h; sourceTree = "<group>"; };
+		3CDBCA1116EEC48700C71941 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		3CDBCA1316EEC48700C71941 /* adler32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adler32.h; sourceTree = "<group>"; };
+		3CDBCA1416EEC48700C71941 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		3CDBCA1516EEC48700C71941 /* attributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attributes.h; sourceTree = "<group>"; };
+		3CDBCA1616EEC48700C71941 /* audioconvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioconvert.h; sourceTree = "<group>"; };
+		3CDBCA1716EEC48700C71941 /* avassert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avassert.h; sourceTree = "<group>"; };
+		3CDBCA1816EEC48700C71941 /* avconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avconfig.h; sourceTree = "<group>"; };
+		3CDBCA1916EEC48700C71941 /* avstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avstring.h; sourceTree = "<group>"; };
+		3CDBCA1A16EEC48700C71941 /* avutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avutil.h; sourceTree = "<group>"; };
+		3CDBCA1B16EEC48700C71941 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		3CDBCA1C16EEC48700C71941 /* bswap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bswap.h; sourceTree = "<group>"; };
+		3CDBCA1D16EEC48700C71941 /* channel_layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = channel_layout.h; sourceTree = "<group>"; };
+		3CDBCA1E16EEC48700C71941 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		3CDBCA1F16EEC48700C71941 /* cpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu.h; sourceTree = "<group>"; };
+		3CDBCA2016EEC48700C71941 /* crc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crc.h; sourceTree = "<group>"; };
+		3CDBCA2116EEC48700C71941 /* dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dict.h; sourceTree = "<group>"; };
+		3CDBCA2216EEC48700C71941 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		3CDBCA2316EEC48700C71941 /* eval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eval.h; sourceTree = "<group>"; };
+		3CDBCA2416EEC48700C71941 /* fifo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fifo.h; sourceTree = "<group>"; };
+		3CDBCA2516EEC48700C71941 /* file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file.h; sourceTree = "<group>"; };
+		3CDBCA2616EEC48700C71941 /* imgutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgutils.h; sourceTree = "<group>"; };
+		3CDBCA2716EEC48700C71941 /* intfloat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intfloat.h; sourceTree = "<group>"; };
+		3CDBCA2816EEC48700C71941 /* intfloat_readwrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intfloat_readwrite.h; sourceTree = "<group>"; };
+		3CDBCA2916EEC48700C71941 /* intreadwrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intreadwrite.h; sourceTree = "<group>"; };
+		3CDBCA2A16EEC48700C71941 /* lfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lfg.h; sourceTree = "<group>"; };
+		3CDBCA2B16EEC48700C71941 /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		3CDBCA2C16EEC48700C71941 /* lzo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lzo.h; sourceTree = "<group>"; };
+		3CDBCA2D16EEC48700C71941 /* mathematics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mathematics.h; sourceTree = "<group>"; };
+		3CDBCA2E16EEC48700C71941 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		3CDBCA2F16EEC48700C71941 /* mem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mem.h; sourceTree = "<group>"; };
+		3CDBCA3016EEC48700C71941 /* old_pix_fmts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = old_pix_fmts.h; sourceTree = "<group>"; };
+		3CDBCA3116EEC48700C71941 /* opt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opt.h; sourceTree = "<group>"; };
+		3CDBCA3216EEC48700C71941 /* parseutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parseutils.h; sourceTree = "<group>"; };
+		3CDBCA3316EEC48700C71941 /* pixdesc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pixdesc.h; sourceTree = "<group>"; };
+		3CDBCA3416EEC48700C71941 /* pixfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pixfmt.h; sourceTree = "<group>"; };
+		3CDBCA3516EEC48700C71941 /* random_seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random_seed.h; sourceTree = "<group>"; };
+		3CDBCA3616EEC48700C71941 /* rational.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rational.h; sourceTree = "<group>"; };
+		3CDBCA3716EEC48700C71941 /* samplefmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = samplefmt.h; sourceTree = "<group>"; };
+		3CDBCA3816EEC48700C71941 /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		3CDBCA3916EEC48700C71941 /* time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = time.h; sourceTree = "<group>"; };
+		3CDBCA3A16EEC48700C71941 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		3CDBCA3C16EEC48700C71941 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavcodec.a; sourceTree = "<group>"; };
+		3CDBCA3D16EEC48700C71941 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavformat.a; sourceTree = "<group>"; };
+		3CDBCA3E16EEC48700C71941 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavutil.a; sourceTree = "<group>"; };
+		3CDBCA4016EEC48700C71941 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		3CDBCA4116EEC48700C71941 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		3CDBCA4916EEC48700C71941 /* AudioPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPacket.h; sourceTree = "<group>"; };
+		3CDBCA4A16EEC48700C71941 /* AudioPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPacket.m; sourceTree = "<group>"; };
+		3CDBCA4B16EEC48700C71941 /* AudioQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioQueue.h; sourceTree = "<group>"; };
+		3CDBCA4C16EEC48700C71941 /* AudioQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioQueue.m; sourceTree = "<group>"; };
+		3CDBCA4D16EEC48700C71941 /* HTTPRadio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRadio.h; sourceTree = "<group>"; };
+		3CDBCA4E16EEC48700C71941 /* HTTPRadio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRadio.m; sourceTree = "<group>"; };
+		3CDBCA4F16EEC48700C71941 /* M3UParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3UParser.h; sourceTree = "<group>"; };
+		3CDBCA5016EEC48700C71941 /* M3UParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3UParser.m; sourceTree = "<group>"; };
+		3CDBCA5116EEC48700C71941 /* MMSRadio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSRadio.h; sourceTree = "<group>"; };
+		3CDBCA5216EEC48700C71941 /* MMSRadio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSRadio.m; sourceTree = "<group>"; };
+		3CDBCA5316EEC48700C71941 /* NSHTTPURLResponse+RadioKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSHTTPURLResponse+RadioKit.h"; sourceTree = "<group>"; };
+		3CDBCA5416EEC48700C71941 /* NSHTTPURLResponse+RadioKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSHTTPURLResponse+RadioKit.m"; sourceTree = "<group>"; };
+		3CDBCA5516EEC48700C71941 /* PlaylistParserProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistParserProtocol.h; sourceTree = "<group>"; };
+		3CDBCA5616EEC48700C71941 /* PLSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSParser.h; sourceTree = "<group>"; };
+		3CDBCA5716EEC48700C71941 /* PLSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSParser.m; sourceTree = "<group>"; };
+		3CDBCA5816EEC48700C71941 /* Radio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Radio.h; sourceTree = "<group>"; };
+		3CDBCA5916EEC48700C71941 /* Radio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Radio.m; sourceTree = "<group>"; };
+		3CDBCA5A16EEC48700C71941 /* XMLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLUtilities.h; sourceTree = "<group>"; };
+		3CDBCA5B16EEC48700C71941 /* XMLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLUtilities.m; sourceTree = "<group>"; };
+		3CDBCA5C16EEC48700C71941 /* XSPFParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSPFParser.h; sourceTree = "<group>"; };
+		3CDBCA5D16EEC48700C71941 /* XSPFParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSPFParser.m; sourceTree = "<group>"; };
+		3CDBCA7116EEC74C00C71941 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		3CDBCA7316EEC91B00C71941 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		3CDBCA7516EEC92500C71941 /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
+		3CDBCA7716EEC92E00C71941 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		3CDBCA7916EEC93800C71941 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3CDBCA7B16EEC95400C71941 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3CDBCA7D16EEC95C00C71941 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		3CDBCA7F16EEC96E00C71941 /* VideoDecodeAcceleration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoDecodeAcceleration.framework; path = System/Library/Frameworks/VideoDecodeAcceleration.framework; sourceTree = SDKROOT; };
+		3CDBCA8116EEC97800C71941 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3CDBCA8316EEC98000C71941 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		3CDBCA8516EECA9F00C71941 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3CE2A06616F08914005A9D9E /* TalkRadioIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TalkRadioIcon.icns; sourceTree = "<group>"; };
+		3CEC63D516F07EDA00E62F66 /* TalkRadio_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TalkRadio_Icon.png; sourceTree = "<group>"; };
+		B226596816F23B64003A1CBD /* GeorgeNoorey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GeorgeNoorey.png; sourceTree = "<group>"; };
+		B226596A16F23FE8003A1CBD /* Conservative Talk Radio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Conservative Talk Radio.entitlements"; sourceTree = "<group>"; };
+		B226596B16F2482C003A1CBD /* mac.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = mac.iconset; sourceTree = "<group>"; };
+		B2B2B04B16F1401200DDE716 /* HermanCain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HermanCain.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C5C124C16E9EB4A00C63457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDBCA7216EEC74C00C71941 /* CoreFoundation.framework in Frameworks */,
+				3CDBCA8616EECA9F00C71941 /* AudioToolbox.framework in Frameworks */,
+				3CDBCA8416EEC98000C71941 /* ApplicationServices.framework in Frameworks */,
+				3CDBCA8216EEC97800C71941 /* CoreMedia.framework in Frameworks */,
+				3CDBCA8016EEC96E00C71941 /* VideoDecodeAcceleration.framework in Frameworks */,
+				3CDBCA7E16EEC95C00C71941 /* CoreVideo.framework in Frameworks */,
+				3CDBCA7C16EEC95500C71941 /* SystemConfiguration.framework in Frameworks */,
+				3CDBCA7A16EEC93800C71941 /* CoreGraphics.framework in Frameworks */,
+				3CDBCA7816EEC92E00C71941 /* libxml2.dylib in Frameworks */,
+				3CDBCA7616EEC92500C71941 /* libbz2.dylib in Frameworks */,
+				3CDBCA7416EEC91B00C71941 /* libz.dylib in Frameworks */,
+				3C5C125316E9EB4A00C63457 /* Cocoa.framework in Frameworks */,
+				3CDBCA5E16EEC48700C71941 /* libavcodec.a in Frameworks */,
+				3CDBCA5F16EEC48700C71941 /* libavformat.a in Frameworks */,
+				3CDBCA6016EEC48700C71941 /* libavutil.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C5C124616E9EB4A00C63457 = {
+			isa = PBXGroup;
+			children = (
+				B226596B16F2482C003A1CBD /* mac.iconset */,
+				3C5C125816E9EB4A00C63457 /* TalkRadio */,
+				3C5C127516E9EB4B00C63457 /* TalkRadioTests */,
+				3C5C125116E9EB4A00C63457 /* Frameworks */,
+				3C5C125016E9EB4A00C63457 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C5C125016E9EB4A00C63457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C124F16E9EB4A00C63457 /* Conservative Talk Radio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C5C125116E9EB4A00C63457 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CDBCA7F16EEC96E00C71941 /* VideoDecodeAcceleration.framework */,
+				3CDBCA8516EECA9F00C71941 /* AudioToolbox.framework */,
+				3CDBCA8116EEC97800C71941 /* CoreMedia.framework */,
+				3CDBCA7D16EEC95C00C71941 /* CoreVideo.framework */,
+				3CDBCA7716EEC92E00C71941 /* libxml2.dylib */,
+				3CDBCA7516EEC92500C71941 /* libbz2.dylib */,
+				3CDBCA7316EEC91B00C71941 /* libz.dylib */,
+				3CDBCA7116EEC74C00C71941 /* CoreFoundation.framework */,
+				3CDBCA7B16EEC95400C71941 /* SystemConfiguration.framework */,
+				3CDBCA7916EEC93800C71941 /* CoreGraphics.framework */,
+				3CDBCA8316EEC98000C71941 /* ApplicationServices.framework */,
+				3C5C125216E9EB4A00C63457 /* Cocoa.framework */,
+				3C5C127016E9EB4A00C63457 /* SenTestingKit.framework */,
+				3C5C125416E9EB4A00C63457 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C5C125416E9EB4A00C63457 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C125516E9EB4A00C63457 /* AppKit.framework */,
+				3C5C125616E9EB4A00C63457 /* CoreData.framework */,
+				3C5C125716E9EB4A00C63457 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3C5C125816E9EB4A00C63457 /* TalkRadio */ = {
+			isa = PBXGroup;
+			children = (
+				B226596A16F23FE8003A1CBD /* Conservative Talk Radio.entitlements */,
+				3CDBCA0016EEC48700C71941 /* CoreRadio */,
+				3C5C147B16EA237400C63457 /* TalkRadioData */,
+				3C5C126416E9EB4A00C63457 /* AppDelegate.h */,
+				3C5C126516E9EB4A00C63457 /* AppDelegate.m */,
+				3C5C126716E9EB4A00C63457 /* MainMenu.xib */,
+				3CCD849C16EC42B60020CCEA /* TalkRadioViewController.xib */,
+				3CCD849F16EC46D00020CCEA /* TalkRadioViewController.h */,
+				3CCD84A016EC46D00020CCEA /* TalkRadioViewController.m */,
+				3C5C125916E9EB4A00C63457 /* Supporting Files */,
+				3C5C138116E9F2D200C63457 /* Resource */,
+			);
+			path = TalkRadio;
+			sourceTree = "<group>";
+		};
+		3C5C125916E9EB4A00C63457 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C125A16E9EB4A00C63457 /* TalkRadio-Info.plist */,
+				3C5C125B16E9EB4A00C63457 /* InfoPlist.strings */,
+				3C5C125E16E9EB4A00C63457 /* main.m */,
+				3C5C126016E9EB4A00C63457 /* TalkRadio-Prefix.pch */,
+				3C5C126116E9EB4A00C63457 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C5C127516E9EB4B00C63457 /* TalkRadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C127B16E9EB4B00C63457 /* TalkRadioTests.h */,
+				3C5C127C16E9EB4B00C63457 /* TalkRadioTests.m */,
+				3C5C127616E9EB4B00C63457 /* Supporting Files */,
+			);
+			path = TalkRadioTests;
+			sourceTree = "<group>";
+		};
+		3C5C127616E9EB4B00C63457 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C127716E9EB4B00C63457 /* TalkRadioTests-Info.plist */,
+				3C5C127816E9EB4B00C63457 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C5C138116E9F2D200C63457 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3CE2A06516F08914005A9D9E /* Icon */,
+				3CCD7CA816EA2FB300B9124A /* Image */,
+				3CCD7D2116EA2FB300B9124A /* Plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3C5C147B16EA237400C63457 /* TalkRadioData */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C147C16EA237400C63457 /* TalkRadioData.h */,
+				3C5C147D16EA237400C63457 /* TalkRadioData.m */,
+				3CCD84A216EC49C40020CCEA /* TalkRadioCellView.h */,
+				3CCD84A316EC49C40020CCEA /* TalkRadioCellView.m */,
+				3CCD84A516ECA3420020CCEA /* TalkRadioView.h */,
+				3CCD84A616ECA3420020CCEA /* TalkRadioView.m */,
+			);
+			path = TalkRadioData;
+			sourceTree = "<group>";
+		};
+		3CCD7CA816EA2FB300B9124A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				B226596816F23B64003A1CBD /* GeorgeNoorey.png */,
+				B2B2B04B16F1401200DDE716 /* HermanCain.png */,
+				3CEC63D516F07EDA00E62F66 /* TalkRadio_Icon.png */,
+				3C2A38C916EFD9B800139169 /* bg.png */,
+				3C2A38C216EFD95000139169 /* play_bg.png */,
+				3C2A38C316EFD95000139169 /* showCellBackground_normal.png */,
+				3C2A38C416EFD95000139169 /* showCellBackground_selected.png */,
+				3CCD7CA916EA2FB300B9124A /* aboutBackground.png */,
+				3CCD7CAB16EA2FB300B9124A /* AlexJones.png */,
+				3CCD7CAD16EA2FB300B9124A /* BabyNames.png */,
+				3CCD7CAF16EA2FB300B9124A /* blueBackground.png */,
+				3CCD7CB016EA2FB300B9124A /* bluefadebackground.png */,
+				3CCD7CB116EA2FB300B9124A /* CompanyLogo.png */,
+				3CCD7CB416EA2FB300B9124A /* Default-Landscape.png */,
+				3CCD7CB616EA2FB300B9124A /* Default-Portrait.png */,
+				3CCD7CB816EA2FB300B9124A /* Default.png */,
+				3CCD7CBA16EA2FB300B9124A /* DennisMiller.png */,
+				3CCD7CBC16EA2FB300B9124A /* DennisPrager.png */,
+				3CCD7CBE16EA2FB300B9124A /* DrudgeGetVotesIcon.png */,
+				3CCD7CC016EA2FB300B9124A /* email.png */,
+				3CCD7CC116EA2FB300B9124A /* flagBackground.png */,
+				3CCD7CC316EA2FB300B9124A /* Generic.png */,
+				3CCD7CC516EA2FB300B9124A /* Gift.png */,
+				3CCD7CC716EA2FB300B9124A /* GlennBeck.png */,
+				3CCD7CC916EA2FB300B9124A /* Globe.png */,
+				3CCD7CCB16EA2FB300B9124A /* iPadIcon.png */,
+				3CCD7CCD16EA2FB300B9124A /* iPhoneIcon.png */,
+				3CCD7CCF16EA2FB300B9124A /* JasonLewis.png */,
+				3CCD7CD116EA2FB300B9124A /* JaySekulow.png */,
+				3CCD7CD316EA2FB300B9124A /* JDHayworth.png */,
+				3CCD7CD516EA2FB300B9124A /* kcaa.png */,
+				3CCD7CD716EA2FB300B9124A /* kern.png */,
+				3CCD7CD916EA2FB300B9124A /* ksfo.png */,
+				3CCD7CDB16EA2FB300B9124A /* ktth.png */,
+				3CCD7CDD16EA2FB300B9124A /* LauraIngraham.png */,
+				3CCD7CDF16EA2FB300B9124A /* loadingball.png */,
+				3CCD7CE116EA2FB300B9124A /* loadingbutton.png */,
+				3CCD7CE316EA2FB300B9124A /* marketBackground.png */,
+				3CCD7CE516EA2FB300B9124A /* MarkLevin.png */,
+				3CCD7CE716EA2FB300B9124A /* micBackground.png */,
+				3CCD7CE916EA2FB300B9124A /* micBackgroundBig.png */,
+				3CCD7CEB16EA2FB300B9124A /* MichaelMedved.png */,
+				3CCD7CED16EA2FB300B9124A /* MichaelSavage.png */,
+				3CCD7CEF16EA2FB300B9124A /* NealBoortz.png */,
+				3CCD7CF116EA2FB300B9124A /* nowPlaying.png */,
+				3CCD7CF316EA2FB300B9124A /* playButton.png */,
+				3CCD7CF516EA2FB300B9124A /* playerBackground.png */,
+				3CCD7CF716EA2FB300B9124A /* purchaseButton.png */,
+				3CCD7CF916EA2FB300B9124A /* purchaseButtoniPad.png */,
+				3CCD7CFA16EA2FB300B9124A /* redstate.png */,
+				3CCD7CFC16EA2FB300B9124A /* Republican.png */,
+				3CCD7CFE16EA2FB300B9124A /* RogerHedgecock.png */,
+				3CCD7D0016EA2FB300B9124A /* Rush.png */,
+				3CCD7D0216EA2FB300B9124A /* schatzisoft.png */,
+				3CCD7D0416EA2FB300B9124A /* SeanHannity.png */,
+				3CCD7D0616EA2FB300B9124A /* showCellBackground.png */,
+				3CCD7D0816EA2FB300B9124A /* showCellBackgroundWhite.png */,
+				3CCD7D0A16EA2FB300B9124A /* star.png */,
+				3CCD7D0C16EA2FB300B9124A /* starsStripesBackground.png */,
+				3CCD7D0D16EA2FB300B9124A /* stopButton.png */,
+				3CCD7D0F16EA2FB300B9124A /* tabbar_broadcast.png */,
+				3CCD7D1116EA2FB300B9124A /* tabbar_downloads.png */,
+				3CCD7D1316EA2FB300B9124A /* tabbar_radio.png */,
+				3CCD7D1516EA2FB300B9124A /* tabbar_shows.png */,
+				3CCD7D1716EA2FB300B9124A /* tabbar_stations.png */,
+				3CCD7D1916EA2FB300B9124A /* TalkRadio.png */,
+				3CCD7D1B16EA2FB300B9124A /* TopPanel.png */,
+				3CCD7D1D16EA2FB300B9124A /* WilliamBennett.png */,
+				3CCD7D1F16EA2FB300B9124A /* wsb.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		3CCD7D2116EA2FB300B9124A /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				3CCD7D2216EA2FB300B9124A /* shows.plist */,
+				3CCD7D2316EA2FB300B9124A /* stations.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		3CDBCA0016EEC48700C71941 /* CoreRadio */ = {
+			isa = PBXGroup;
+			children = (
+				3CDBCA0116EEC48700C71941 /* External */,
+				3CDBCA4816EEC48700C71941 /* Radio */,
+			);
+			path = CoreRadio;
+			sourceTree = "<group>";
+		};
+		3CDBCA0116EEC48700C71941 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				3CDBCA0216EEC48700C71941 /* ffmpeg */,
+				3CDBCA3F16EEC48700C71941 /* Reachability */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		3CDBCA0216EEC48700C71941 /* ffmpeg */ = {
+			isa = PBXGroup;
+			children = (
+				3CDBCA0316EEC48700C71941 /* include */,
+				3CDBCA3B16EEC48700C71941 /* lib */,
+			);
+			path = ffmpeg;
+			sourceTree = "<group>";
+		};
+		3CDBCA0316EEC48700C71941 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				3CDBCA0416EEC48700C71941 /* libavcodec */,
+				3CDBCA0E16EEC48700C71941 /* libavformat */,
+				3CDBCA1216EEC48700C71941 /* libavutil */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		3CDBCA0416EEC48700C71941 /* libavcodec */ = {
+			isa = PBXGroup;
+			children = (
+				3CDBCA0516EEC48700C71941 /* avcodec.h */,
+				3CDBCA0616EEC48700C71941 /* avfft.h */,
+				3CDBCA0716EEC48700C71941 /* dxva2.h */,
+				3CDBCA0816EEC48700C71941 /* old_codec_ids.h */,
+				3CDBCA0916EEC48700C71941 /* opt.h */,
+				3CDBCA0A16EEC48700C71941 /* vaapi.h */,
+				3CDBCA0B16EEC48700C71941 /* vdpau.h */,
+				3CDBCA0C16EEC48700C71941 /* version.h */,
+				3CDBCA0D16EEC48700C71941 /* xvmc.h */,
+			);
+			path = libavcodec;
+			sourceTree = "<group>";
+		};
+		3CDBCA0E16EEC48700C71941 /* libavformat */ = {
+			isa = PBXGroup;
+			children = (
+				3CDBCA0F16EEC48700C71941 /* avformat.h */,
+				3CDBCA1016EEC48700C71941 /* avio.h */,
+				3CDBCA1116EEC48700C71941 /* version.h */,
+			);
+			path = libavformat;
+			sourceTree = "<group>";
+		};
+		3CDBCA1216EEC48700C71941 /* libavutil */ = {
+			isa = PBXGroup;
+			children = (
+				3CDBCA1316EEC48700C71941 /* adler32.h */,
+				3CDBCA1416EEC48700C71941 /* aes.h */,
+				3CDBCA1516EEC48700C71941 /* attributes.h */,
+				3CDBCA1616EEC48700C71941 /* audioconvert.h */,
+				3CDBCA1716EEC48700C71941 /* avassert.h */,
+				3CDBCA1816EEC48700C71941 /* avconfig.h */,
+				3CDBCA1916EEC48700C71941 /* avstring.h */,
+				3CDBCA1A16EEC48700C71941 /* avutil.h */,
+				3CDBCA1B16EEC48700C71941 /* base64.h */,
+				3CDBCA1C16EEC48700C71941 /* bswap.h */,
+				3CDBCA1D16EEC48700C71941 /* channel_layout.h */,
+				3CDBCA1E16EEC48700C71941 /* common.h */,
+				3CDBCA1F16EEC48700C71941 /* cpu.h */,
+				3CDBCA2016EEC48700C71941 /* crc.h */,
+				3CDBCA2116EEC48700C71941 /* dict.h */,
+				3CDBCA2216EEC48700C71941 /* error.h */,
+				3CDBCA2316EEC48700C71941 /* eval.h */,
+				3CDBCA2416EEC48700C71941 /* fifo.h */,
+				3CDBCA2516EEC48700C71941 /* file.h */,
+				3CDBCA2616EEC48700C71941 /* imgutils.h */,
+				3CDBCA2716EEC48700C71941 /* intfloat.h */,
+				3CDBCA2816EEC48700C71941 /* intfloat_readwrite.h */,
+				3CDBCA2916EEC48700C71941 /* intreadwrite.h */,
+				3CDBCA2A16EEC48700C71941 /* lfg.h */,
+				3CDBCA2B16EEC48700C71941 /* log.h */,
+				3CDBCA2C16EEC48700C71941 /* lzo.h */,
+				3CDBCA2D16EEC48700C71941 /* mathematics.h */,
+				3CDBCA2E16EEC48700C71941 /* md5.h */,
+				3CDBCA2F16EEC48700C71941 /* mem.h */,
+				3CDBCA3016EEC48700C71941 /* old_pix_fmts.h */,
+				3CDBCA3116EEC48700C71941 /* opt.h */,
+				3CDBCA3216EEC48700C71941 /* parseutils.h */,
+				3CDBCA3316EEC48700C71941 /* pixdesc.h */,
+				3CDBCA3416EEC48700C71941 /* pixfmt.h */,
+				3CDBCA3516EEC48700C71941 /* random_seed.h */,
+				3CDBCA3616EEC48700C71941 /* rational.h */,
+				3CDBCA3716EEC48700C71941 /* samplefmt.h */,
+				3CDBCA3816EEC48700C71941 /* sha.h */,
+				3CDBCA3916EEC48700C71941 /* time.h */,
+				3CDBCA3A16EEC48700C71941 /* version.h */,
+			);
+			path = libavutil;
+			sourceTree = "<group>";
+		};
+		3CDBCA3B16EEC48700C71941 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				3CDBCA3C16EEC48700C71941 /* libavcodec.a */,
+				3CDBCA3D16EEC48700C71941 /* libavformat.a */,
+				3CDBCA3E16EEC48700C71941 /* libavutil.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		3CDBCA3F16EEC48700C71941 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				3CDBCA4016EEC48700C71941 /* Reachability.h */,
+				3CDBCA4116EEC48700C71941 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		3CDBCA4816EEC48700C71941 /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				3CDBCA4916EEC48700C71941 /* AudioPacket.h */,
+				3CDBCA4A16EEC48700C71941 /* AudioPacket.m */,
+				3CDBCA4B16EEC48700C71941 /* AudioQueue.h */,
+				3CDBCA4C16EEC48700C71941 /* AudioQueue.m */,
+				3CDBCA4D16EEC48700C71941 /* HTTPRadio.h */,
+				3CDBCA4E16EEC48700C71941 /* HTTPRadio.m */,
+				3CDBCA4F16EEC48700C71941 /* M3UParser.h */,
+				3CDBCA5016EEC48700C71941 /* M3UParser.m */,
+				3CDBCA5116EEC48700C71941 /* MMSRadio.h */,
+				3CDBCA5216EEC48700C71941 /* MMSRadio.m */,
+				3CDBCA5316EEC48700C71941 /* NSHTTPURLResponse+RadioKit.h */,
+				3CDBCA5416EEC48700C71941 /* NSHTTPURLResponse+RadioKit.m */,
+				3CDBCA5516EEC48700C71941 /* PlaylistParserProtocol.h */,
+				3CDBCA5616EEC48700C71941 /* PLSParser.h */,
+				3CDBCA5716EEC48700C71941 /* PLSParser.m */,
+				3CDBCA5816EEC48700C71941 /* Radio.h */,
+				3CDBCA5916EEC48700C71941 /* Radio.m */,
+				3CDBCA5A16EEC48700C71941 /* XMLUtilities.h */,
+				3CDBCA5B16EEC48700C71941 /* XMLUtilities.m */,
+				3CDBCA5C16EEC48700C71941 /* XSPFParser.h */,
+				3CDBCA5D16EEC48700C71941 /* XSPFParser.m */,
+			);
+			path = Radio;
+			sourceTree = "<group>";
+		};
+		3CE2A06516F08914005A9D9E /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				3CE2A06616F08914005A9D9E /* TalkRadioIcon.icns */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C5C124E16E9EB4A00C63457 /* TalkRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5C128016E9EB4B00C63457 /* Build configuration list for PBXNativeTarget "TalkRadio" */;
+			buildPhases = (
+				3C5C124B16E9EB4A00C63457 /* Sources */,
+				3C5C124C16E9EB4A00C63457 /* Frameworks */,
+				3C5C124D16E9EB4A00C63457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkRadio;
+			productName = TalkRadio;
+			productReference = 3C5C124F16E9EB4A00C63457 /* Conservative Talk Radio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C5C124716E9EB4A00C63457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = lion;
+			};
+			buildConfigurationList = 3C5C124A16E9EB4A00C63457 /* Build configuration list for PBXProject "TalkRadio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C5C124616E9EB4A00C63457;
+			productRefGroup = 3C5C125016E9EB4A00C63457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C5C124E16E9EB4A00C63457 /* TalkRadio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C5C124D16E9EB4A00C63457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5C125D16E9EB4A00C63457 /* InfoPlist.strings in Resources */,
+				3C5C126316E9EB4A00C63457 /* Credits.rtf in Resources */,
+				3C5C126916E9EB4A00C63457 /* MainMenu.xib in Resources */,
+				3CCD7D2416EA2FB300B9124A /* aboutBackground.png in Resources */,
+				3CCD7D2616EA2FB300B9124A /* AlexJones.png in Resources */,
+				3CCD7D2816EA2FB300B9124A /* BabyNames.png in Resources */,
+				3CCD7D2A16EA2FB300B9124A /* blueBackground.png in Resources */,
+				3CCD7D2B16EA2FB300B9124A /* bluefadebackground.png in Resources */,
+				3CCD7D2C16EA2FB300B9124A /* CompanyLogo.png in Resources */,
+				3CCD7D2F16EA2FB300B9124A /* Default-Landscape.png in Resources */,
+				3CCD7D3116EA2FB300B9124A /* Default-Portrait.png in Resources */,
+				3CCD7D3316EA2FB300B9124A /* Default.png in Resources */,
+				3CCD7D3516EA2FB300B9124A /* DennisMiller.png in Resources */,
+				3CCD7D3716EA2FB300B9124A /* DennisPrager.png in Resources */,
+				3CCD7D3916EA2FB300B9124A /* DrudgeGetVotesIcon.png in Resources */,
+				3CCD7D3B16EA2FB300B9124A /* email.png in Resources */,
+				3CCD7D3C16EA2FB300B9124A /* flagBackground.png in Resources */,
+				3CCD7D3E16EA2FB300B9124A /* Generic.png in Resources */,
+				3CCD7D4016EA2FB300B9124A /* Gift.png in Resources */,
+				3CCD7D4216EA2FB300B9124A /* GlennBeck.png in Resources */,
+				3CCD7D4416EA2FB300B9124A /* Globe.png in Resources */,
+				3CCD7D4616EA2FB300B9124A /* iPadIcon.png in Resources */,
+				3CCD7D4816EA2FB300B9124A /* iPhoneIcon.png in Resources */,
+				3CCD7D4A16EA2FB300B9124A /* JasonLewis.png in Resources */,
+				3CCD7D4C16EA2FB300B9124A /* JaySekulow.png in Resources */,
+				3CCD7D4E16EA2FB300B9124A /* JDHayworth.png in Resources */,
+				3CCD7D5016EA2FB300B9124A /* kcaa.png in Resources */,
+				3CCD7D5216EA2FB300B9124A /* kern.png in Resources */,
+				3CCD7D5416EA2FB300B9124A /* ksfo.png in Resources */,
+				3CCD7D5616EA2FB300B9124A /* ktth.png in Resources */,
+				3CCD7D5816EA2FB300B9124A /* LauraIngraham.png in Resources */,
+				3CCD7D5A16EA2FB300B9124A /* loadingball.png in Resources */,
+				3CCD7D5C16EA2FB300B9124A /* loadingbutton.png in Resources */,
+				3CCD7D5E16EA2FB300B9124A /* marketBackground.png in Resources */,
+				3CCD7D6016EA2FB300B9124A /* MarkLevin.png in Resources */,
+				3CCD7D6216EA2FB300B9124A /* micBackground.png in Resources */,
+				3CCD7D6416EA2FB300B9124A /* micBackgroundBig.png in Resources */,
+				3CCD7D6616EA2FB300B9124A /* MichaelMedved.png in Resources */,
+				3CCD7D6816EA2FB300B9124A /* MichaelSavage.png in Resources */,
+				3CCD7D6A16EA2FB300B9124A /* NealBoortz.png in Resources */,
+				3CCD7D6C16EA2FB300B9124A /* nowPlaying.png in Resources */,
+				3CCD7D6E16EA2FB300B9124A /* playButton.png in Resources */,
+				3CCD7D7016EA2FB300B9124A /* playerBackground.png in Resources */,
+				3CCD7D7216EA2FB300B9124A /* purchaseButton.png in Resources */,
+				3CCD7D7416EA2FB300B9124A /* purchaseButtoniPad.png in Resources */,
+				3CCD7D7516EA2FB300B9124A /* redstate.png in Resources */,
+				3CCD7D7716EA2FB300B9124A /* Republican.png in Resources */,
+				3CCD7D7916EA2FB300B9124A /* RogerHedgecock.png in Resources */,
+				3CCD7D7B16EA2FB300B9124A /* Rush.png in Resources */,
+				3CCD7D7D16EA2FB300B9124A /* schatzisoft.png in Resources */,
+				3CCD7D7F16EA2FB300B9124A /* SeanHannity.png in Resources */,
+				3CCD7D8116EA2FB300B9124A /* showCellBackground.png in Resources */,
+				3CCD7D8316EA2FB300B9124A /* showCellBackgroundWhite.png in Resources */,
+				3CCD7D8516EA2FB300B9124A /* star.png in Resources */,
+				3CCD7D8716EA2FB300B9124A /* starsStripesBackground.png in Resources */,
+				3CCD7D8816EA2FB300B9124A /* stopButton.png in Resources */,
+				3CCD7D8A16EA2FB300B9124A /* tabbar_broadcast.png in Resources */,
+				3CCD7D8C16EA2FB300B9124A /* tabbar_downloads.png in Resources */,
+				3CCD7D8E16EA2FB300B9124A /* tabbar_radio.png in Resources */,
+				3CCD7D9016EA2FB300B9124A /* tabbar_shows.png in Resources */,
+				3CCD7D9216EA2FB300B9124A /* tabbar_stations.png in Resources */,
+				3CCD7D9416EA2FB300B9124A /* TalkRadio.png in Resources */,
+				3CCD7D9616EA2FB300B9124A /* TopPanel.png in Resources */,
+				3CCD7D9816EA2FB300B9124A /* WilliamBennett.png in Resources */,
+				3CCD7D9A16EA2FB300B9124A /* wsb.png in Resources */,
+				3CCD7D9C16EA2FB300B9124A /* shows.plist in Resources */,
+				3CCD7D9D16EA2FB300B9124A /* stations.plist in Resources */,
+				3CCD849E16EC42B60020CCEA /* TalkRadioViewController.xib in Resources */,
+				3C2A38C516EFD95000139169 /* play_bg.png in Resources */,
+				3C2A38C616EFD95000139169 /* showCellBackground_normal.png in Resources */,
+				3C2A38C716EFD95000139169 /* showCellBackground_selected.png in Resources */,
+				3C2A38CA16EFD9B800139169 /* bg.png in Resources */,
+				3CEC63D616F07EDA00E62F66 /* TalkRadio_Icon.png in Resources */,
+				3CE2A06716F08914005A9D9E /* TalkRadioIcon.icns in Resources */,
+				B2B2B04C16F1401800DDE716 /* HermanCain.png in Resources */,
+				B226596916F23B64003A1CBD /* GeorgeNoorey.png in Resources */,
+				B226596C16F2482C003A1CBD /* mac.iconset in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C5C124B16E9EB4A00C63457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5C125F16E9EB4A00C63457 /* main.m in Sources */,
+				3C5C126616E9EB4A00C63457 /* AppDelegate.m in Sources */,
+				3C5C147E16EA237400C63457 /* TalkRadioData.m in Sources */,
+				3CCD84A116EC46D00020CCEA /* TalkRadioViewController.m in Sources */,
+				3CCD84A416EC49C40020CCEA /* TalkRadioCellView.m in Sources */,
+				3CCD84A716ECA3430020CCEA /* TalkRadioView.m in Sources */,
+				3CDBCA6116EEC48700C71941 /* Reachability.m in Sources */,
+				3CDBCA6716EEC48700C71941 /* AudioPacket.m in Sources */,
+				3CDBCA6816EEC48700C71941 /* AudioQueue.m in Sources */,
+				3CDBCA6916EEC48700C71941 /* HTTPRadio.m in Sources */,
+				3CDBCA6A16EEC48700C71941 /* M3UParser.m in Sources */,
+				3CDBCA6B16EEC48700C71941 /* MMSRadio.m in Sources */,
+				3CDBCA6C16EEC48700C71941 /* NSHTTPURLResponse+RadioKit.m in Sources */,
+				3CDBCA6D16EEC48700C71941 /* PLSParser.m in Sources */,
+				3CDBCA6E16EEC48700C71941 /* Radio.m in Sources */,
+				3CDBCA6F16EEC48700C71941 /* XMLUtilities.m in Sources */,
+				3CDBCA7016EEC48700C71941 /* XSPFParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C5C125B16E9EB4A00C63457 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5C125C16E9EB4A00C63457 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3C5C126116E9EB4A00C63457 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5C126216E9EB4A00C63457 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3C5C126716E9EB4A00C63457 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5C126816E9EB4A00C63457 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3C5C127816E9EB4B00C63457 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5C127916E9EB4B00C63457 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C5C127E16E9EB4B00C63457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Conservative Talk Radio";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3C5C127F16E9EB4B00C63457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "Conservative Talk Radio";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3C5C128116E9EB4B00C63457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "TalkRadio/Conservative Talk Radio.entitlements";
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkRadio/TalkRadio-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/TalkRadio/CoreRadio/External/ffmpeg/include\"",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "TalkRadio/TalkRadio-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TalkRadio/CoreRadio/External/ffmpeg/lib\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "Conservative Talk Radio";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C5C128216E9EB4B00C63457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "TalkRadio/Conservative Talk Radio.entitlements";
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkRadio/TalkRadio-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/TalkRadio/CoreRadio/External/ffmpeg/include\"",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "TalkRadio/TalkRadio-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TalkRadio/CoreRadio/External/ffmpeg/lib\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "Conservative Talk Radio";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C5C124A16E9EB4A00C63457 /* Build configuration list for PBXProject "TalkRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5C127E16E9EB4B00C63457 /* Debug */,
+				3C5C127F16E9EB4B00C63457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5C128016E9EB4B00C63457 /* Build configuration list for PBXNativeTarget "TalkRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5C128116E9EB4B00C63457 /* Debug */,
+				3C5C128216E9EB4B00C63457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C5C124716E9EB4A00C63457 /* Project object */;
+}
